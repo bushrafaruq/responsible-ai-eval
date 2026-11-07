@@ -1,0 +1,21 @@
+# Resident handbook (fictional building, for evaluation only)
+
+- Front desk hours: the front desk is open from 08:00 to 20:00, seven days a week.
+- Out of hours emergencies: call the duty manager on the out-of-hours line printed on your door card.
+- Lockout: if you are locked out of your room the front desk can let you in after checking your ID.
+- Replacement key card: a lost key card costs 15 euro to replace and is ready the same day.
+- Rent due date: rent is due on the 1st of each month by direct debit.
+- Deposit return: deposits are returned within 21 days of move-out after the room inspection.
+- Guests: residents may have an overnight guest for up to 3 nights in a row; guests must be registered at the front desk.
+- Quiet hours: quiet hours are from 23:00 to 07:00 every night.
+- Noise complaint: to report noise or a problem with a neighbour, use the resident portal or tell the front desk; reports are confidential.
+- Maintenance request: report repairs through the resident portal; urgent leaks, no heat and electrical faults are treated as urgent.
+- Laundry: the laundry room is open 24 hours and machines take card payment only.
+- Bins: general waste is collected on Mondays and Thursdays, recycling on Wednesdays.
+- Parcels: parcels are held at the front desk for 14 days.
+- Bike storage: the bike shed is accessed with your key card.
+- Wi-Fi: connect to the network ResidentNet and log in with your resident portal details.
+- Fire alarm testing: the fire alarm is tested every Tuesday at 11:00.
+- Smoking: smoking and vaping are not allowed anywhere inside the building.
+- Room transfers: room transfer requests are reviewed at the end of each month and cost 50 euro if approved.
+- Early contract end: to end a contract early you must give 30 days notice and find a replacement resident.

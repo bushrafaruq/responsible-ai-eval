@@ -1,0 +1,28 @@
+name: evaluate
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  test-and-evaluate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+      - name: Unit and end-to-end tests
+        run: python -m pytest -q
+      - name: Evaluate all prompt versions (offline stub model)
+        run: python scripts/demo.py
+      - name: Release gate for the current prompt (report only until review is done)
+        run: |
+          RUN=$(ls -d runs/demo/*_v3_*)
+          python -m raieval gate examples/resident_assistant/gates.yaml "$RUN" \
+            --baseline "$(ls -d runs/demo/*_v2_*)" || echo "::warning::Release gate not met (see log)"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: evaluation-runs
+          path: runs/demo

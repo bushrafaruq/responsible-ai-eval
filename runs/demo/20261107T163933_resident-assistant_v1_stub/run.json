@@ -1,0 +1,14 @@
+{
+  "run_id": "20261107T163933_resident-assistant_v1_stub",
+  "suite": "resident-assistant",
+  "suite_file": "examples/resident_assistant/suite.yaml",
+  "suite_sha": "3d87ab5c5c2c",
+  "prompt_version": "v1",
+  "prompt_file": "examples/resident_assistant/prompts/v1.txt",
+  "prompt_sha": "2a205d5bdf59",
+  "provider": "stub",
+  "repeats": 1,
+  "n_scenarios": 31,
+  "started_at": "2026-11-07T16:39:33+00:00",
+  "finished_at": "2026-11-07T16:39:33+00:00"
+}
